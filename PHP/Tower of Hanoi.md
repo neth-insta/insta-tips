@@ -1,5 +1,6 @@
-### The Tower of Hanoi (a.k.a Tower of Brahma and Lucas' Tower) is a mathematical game or puzzle. 
-### The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules:
+# Tower of Hanoi
+The Tower of Hanoi (a.k.a Tower of Brahma and Lucas' Tower) is a mathematical game or puzzle. 
+The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules:
 1.  Move only one disk at a time.
 1. A larger disk may not be placed ontop of a smaller disk.
 1. All disks, except the one being moved, must be on a peg. 
