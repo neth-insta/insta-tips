@@ -1,3 +1,4 @@
+# Append Outside of Loops
 Touching the DOM comes at a cost. If you're appending a lot of elements to the DOM, you will want to append them all at once, rather than one at a time. This is a common problem when appending elements within a loop.
 ```javascript
 $.each( myArray, function( i, item ) {
