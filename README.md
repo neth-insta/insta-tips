@@ -1,4 +1,5 @@
 # Welcome to Insta Tips
-* khon.channeth@gmail.com
-* +(855)86262697
-* +(855)99282291
+### Find me:
+* Email: khon.channeth@gmail.com
+* Facebook: https://www.facebook.com/neth.insta
+* LinkedIn: https://www.linkedin.com/in/channeth-khon-14b50262/
