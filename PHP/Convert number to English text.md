@@ -1,4 +1,4 @@
-# Convert Latin number to English text
+# Convert number to English text
 ```php
 <?php
 
