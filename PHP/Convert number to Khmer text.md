@@ -1,4 +1,4 @@
-# Convert Latin number to Khmer text
+# Convert number to Khmer text
 ```php
 <?php
 
