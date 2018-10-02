@@ -1,3 +1,4 @@
+# Filter validate email
 For filter normal encoding email
 ```php
 $is_email = filter_var('neth@gmail.com', FILTER_VALIDATE_EMAIL);
