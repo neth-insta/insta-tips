@@ -8,5 +8,6 @@
 * `=NumberInKhmer(A1,"Currency")`
 * `=NumberInKhmerUnicode(A1,"Currency")`
 
-*** `"Currency"` parameter is optional
-*** After import plugin do not move file `"formular v1.2.xla"`
+# Note:
+* `"Currency"` parameter is optional
+* After import plugin do not move file `"formular v1.2.xla"`
