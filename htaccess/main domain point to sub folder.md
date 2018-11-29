@@ -1,5 +1,8 @@
+# Main domain point to sub folder.md
+```php
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^(?:www\.)?mekongmicroinsurance\.com.kh$ [NC]
-RewriteCond %{REQUEST_URI} !^/mmi_website/public/ [NC]
-RewriteRule ^(.*)$ /mmi_website/public/$1 [L]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?domain-name\.com.kh$ [NC]
+RewriteCond %{REQUEST_URI} !^/uat_folder/ [NC]
+RewriteRule ^(.*)$ /live_folder/$1 [L]
+```
