@@ -1,4 +1,4 @@
-# Main domain point to sub folder.md
+# Main domain point to sub folder
 ```php
 RewriteEngine On
 
