@@ -19,8 +19,8 @@ $ git commit -m "First commit"
 
 * In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
 ```command
-# Sets the new remote
-$ git remote add origin remote repository URL
+# Sets the new remote ([remote name], [remote repository URL])
+$ git remote add origin https://github.com/neth-insta/blabla.git
 
 # Verifies the new remote URL
 $ git remote -v
