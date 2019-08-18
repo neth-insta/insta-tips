@@ -1,3 +1,5 @@
+# Specified key was too long error
+
 Go to edit your `AppServiceProvider.php`:
 
 ```php
