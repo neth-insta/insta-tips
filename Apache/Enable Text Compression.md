@@ -1,10 +1,10 @@
 # Enable Text Compression
 
-1. Make sure you enable below apache module:
+#### 1. Make sure you enable below apache module:
 * LoadModule deflate_module modules/mod_deflate.so
 * LoadModule filter_module modules/mod_filter.so
 
-2. Then paste below configuration in your httpd.conf
+#### 2. Then paste below configuration in your httpd.conf
 
 ```
 <IfModule mod_deflate.c>
@@ -39,4 +39,4 @@ Header append Vary User-Agent
 </IfModule>
 ```
 
-3. Restart your apache service
+#### 3. Restart your apache service
