@@ -1,26 +1,22 @@
 * Create git folder and navigate to git folder run below command line:
 
-```bash 
+```php 
 $ git init --bare --shared live.productivity.git 
 ```
-
-```bash 
+```php 
 $ cd live.productivity.git/hooks 
 ```
-
-```bash
+```php
 $ touch post-receive
 ```
-
-```bash
+```php
 $ chmod +x post-receive
 ```
-
-```bash
+```php
 $ vim post-receive
 ```
 * Edit file post-receive as below sample:
-```bash
+```php
 #!/bin/bash
 
 TARGET="/home/productivitystsk/public_html/live"
