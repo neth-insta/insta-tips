@@ -1,20 +1,42 @@
 * Create git folder and navigate to git folder run below command line:
 
-1,  
-
-```php
-$ git branch
-```
-
-
-```php 
+```bash 
 $ git init --bare --shared live.productivity.git 
 ```
 
-2, $ cd live.productivity.git/hooks
+```bash 
+$ cd live.productivity.git/hooks 
+```
 
-3, $ touch post-receive
+```bash
+$ touch post-receive
+```
 
-4, $ chmod +x post-receive
+```bash
+$ chmod +x post-receive
+```
 
-5, $ vim post-receive and Edit file post-receive as below sample:
+```bash
+$ vim post-receive
+```
+* Edit file post-receive as below sample:
+```bash
+#!/bin/bash
+
+TARGET="/home/productivitystsk/public_html/live"
+GIT_BARE="/home/productivitystsk/git/live.productivity.git"
+BRANCH="master"
+
+while read oldrev newrev ref
+do
+	# only checking out the master
+	if [[ $ref = refs/heads/$BRANCH ]];
+	then
+		echo "Ref $ref received. Deploying ${BRANCH} branch to uat..."
+		git --work-tree=$TARGET --git-dir=$GIT_BARE checkout -f
+	else
+		echo "Ref $ref received. Doing nothing: only the ${BRANCH} branch may be deployed on this server."
+	fi
+done
+
+```
