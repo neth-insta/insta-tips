@@ -1,4 +1,4 @@
-#Windows 10 not release disk space fixed:
+# Windows 10 not release disk space fixed:
 1. Via the docker ui, Under the images tab hit the cleanup button. 
 1. Select both Unused and Dangling and hit the Remove button
 1. Run ```docker system prune -a```
